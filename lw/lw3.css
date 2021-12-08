@@ -1,30 +1,187 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+
+body
+{
+	font-family:Montserrat;
+}
+
+main
+{
+	margin-left:120px;
+	margin-right:120px;
+}
+
+.header
+{
+	background-image:url('img/top_pic.png');
+	min-height:800px;
+	background-repeat:no-repeat;
+	background-position: right 0 top 0;
+	padding-top:40px;
+	display:flex;
+	flex-wrap:wrap;
+}
 
 .logo_text
 {
-	font-family: Montserrat;
 	font-style: normal;
 	font-weight: bold;
 	font-size: 24px;
 	line-height: 22px;
 	color: #FDB100;
 	justify-content:flex-start;
+	margin: 0 60px 0 120px;
 }
 
 .top_nav
 {
 	display:flex;
-	align-items:baseline;
+	align-items:center;
 }
 
 .top_nav_text
 {
-	font-family: Montserrat;
 	font-style: normal;
 	font-weight: 600;
 	font-size: 18px;
 	line-height: 22px;
-	color: #3A3C41;
-	margin: 1%;
+	color: #9196A1;
+	margin: 0 20px 0 20px;
 	justify-content:center;
+}
+
+.top_nav_text::hover
+{
+	color:#3A3C41;
+}
+
+.top_nav_text::active
+{
+	color:#3A3C41;
+}
+
+.login_img
+{
+	background-color:#FDB100;
+	border-radius:100px;
+	margin: 0 7px 0 545px;
+}
+
+.login_text
+{
+	font-style: normal;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 22px;
+	color: #9196A1;
+	margin: 0 120px 0 7px;
+}
+
+.promo
+{
+	max-width:688px;
+	margin-left:120px;
+}
+
+.promo_title
+{
+	font-style: normal;
+	font-weight: 700;
+	font-size: 72px;
+	line-height: 88px;
+	color: #25292D;
+	margin-bottom:16px;
+}
+
+.promo_desc
+{
+	font-size: 18px;
+	line-height: 28px;
+	color: #4A525A;
+}
+
+.button
+{
+	background: white;
+	border: 1px solid #FDB100;
+	border-radius: 16px;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 28px;
+	color: #FDB100;
+	height:60px;
+	width:218px;
+	margin-right:24px;
+}
+
+.btn_accent
+{
+	background: #FDB100;
+	width:278px;
+	color:white;
+}
+
+.sort_title
+{
+	font-weight: bold;
+	font-size: 42px;
+	line-height: 62px;
+	color: #25292D;
+	margin-bottom:0px;
+}
+
+.sort_desc
+{
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 32px;
+	color: #4A525A;
+	max-width:700px;
+	margin-top:16px;
+}
+
+.sort_list
+{
+	display:flex;
+	justify-content:space-between;
+}
+
+.sort_item
+{
+	display:flex;
+	flex-direction:column;
+	background: #FFFFFF;
+	box-shadow: 0px 16px 72px rgba(34, 39, 47, 0.05);
+	border-radius: 24px;
+	text-decoration:none;
+	padding:24px;
+	max-width:278px;
+}
+
+.si_icon_cont
+{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	background: #FFEFCC;
+	border-radius: 12px;
+	width:50px;
+	height:50px;
+}
+
+.sort_item_title
+{
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 30px;
+	color: #25292D;
+	margin-bottom:16px;
+}
+
+.sort_item_desc
+{
+	font-size: 18px;
+	line-height: 30px;
+	color: #4A525A;
+	margin-top:0;
 }
