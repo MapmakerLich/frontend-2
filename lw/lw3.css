@@ -185,3 +185,72 @@ main
 	color: #4A525A;
 	margin-top:0;
 }
+
+.daily
+{
+	margin-top:157px;
+	display:flex;
+}
+
+.daily_desc
+{
+	justify-content:column;
+}
+
+.daily_img
+{
+	max-width: 543px;
+	margin-right:62px;
+}
+
+.daily_stats
+{
+	display:flex;
+}
+
+.daily_likes
+{
+	margin-left: 350px;
+	margin-right:9px;
+	opacity:0.5;
+}
+
+.daily_likes_count
+{
+	color: #25292D;
+}
+
+.daily_time
+{
+	margin-left:30px;
+	margin-right:10px;
+}
+
+.daily_logo
+{
+	margin-top:23px;
+	margin-bottom:32px;
+}
+
+.daily_title
+{
+	margin-top:0;
+	margin-bottom:16px;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 42px;
+	line-height: 60px;
+	text-transform: capitalize;
+	color: #25292D;
+}
+
+.daily_text
+{
+	margin-top:0;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 32px;
+	color: #4A525A;
+	max-width:524px;
+}
